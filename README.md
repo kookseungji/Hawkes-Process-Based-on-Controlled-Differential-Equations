@@ -5,13 +5,12 @@
 * [PyTorch](https://pytorch.org/) version 1.4.0.
 
 ### Instructions 
-0. Run **conda env create --file environment.yaml** before starting the experiment.
-1. We release code for Mimic datasets in data folder. 
-2. **bash run_hpcde.sh** to run the code.
-
+0.   Run **conda env create --file environment.yaml** before starting the experiment.
+1.   We release code for Mimic datasets in data folder. 
+2.   **bash run_hpcde.sh** to run the code.
 
 ​
-[ parser ]      [ Description of parser ]
+[ parser ]      
 * data         : The path where data exists
 * scale        : coefficient of time prediction, alpha1 in the paper
 * llscale      : coefficient of likelihood, alpha2 in the paper
