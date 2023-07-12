@@ -9,7 +9,7 @@
 1. We release code for Mimic datasets in data folder. 
 2. **bash run_hpcde.sh** to run the code.
 
-###############################################
+
 ​
 [ parser ]      [ Description of parser ]
  --data         : The path where data exists
