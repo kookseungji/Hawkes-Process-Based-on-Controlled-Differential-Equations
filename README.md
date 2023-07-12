@@ -5,7 +5,7 @@
 * [PyTorch](https://pytorch.org/) version 1.4.0.
 
 ### Instructions 
-0.   Run $ conda env create --file environment.yaml before starting the experiment.
+0.   Run ``` conda env create --file environment.yaml ``` before starting the experiment.
 1.   We release code for Mimic datasets in data folder. 
 2.   **bash run_hpcde.sh** to run the code.
 
