@@ -21,3 +21,17 @@ By using the continuous nature of neural CDEs, HP-CDE can properly handle irregu
 
 We recommend using Anaconda to manage the Python environment and dependencies.
 
+## Installation
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations.git
+   cd Hawkes-Process-Based-on-Controlled-Differential-Equations
+   ```
+
+2. Create and activate the Conda environment:
+   ```
+   conda env create --file environment.yaml
+   conda activate hpcde
+   ```
+
