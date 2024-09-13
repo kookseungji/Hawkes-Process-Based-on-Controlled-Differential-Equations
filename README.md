@@ -35,3 +35,17 @@ We recommend using Anaconda to manage the Python environment and dependencies.
    conda activate hpcde
    ```
 
+## Data
+
+The MIMIC dataset is provided in the `data` folder. For other datasets (MemeTracker, Retweet, StackOverflow), please refer to the paper for information on how to obtain and preprocess them.
+
+## Usage
+
+To train and evaluate the HP-CDE model, run:
+
+```
+bash run_hpcde.sh
+```
+
+This script sets up the necessary parameters and runs the main training/evaluation loop.
+
