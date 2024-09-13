@@ -1,27 +1,4 @@
 # Hawkes Process Based on Controlled Differential Equations
 
-# Hawkes-Process-Based-on-Controlled-Differential-Equations
-### Dependencies
-* Python 3.7.
-* [Anaconda](https://www.anaconda.com/) contains all the required packages.
-* [PyTorch](https://pytorch.org/) version 1.4.0.
-
-### Instructions 
-0.   Run ``` conda env create --file environment.yaml ``` before starting the experiment.
-1.   We release code for Mimic datasets in data folder. 
-2. ```bash run_hpcde.sh``` to run the code.
-
-​
-[ parser ]      
-* data         : The path where data exists
-* scale        : coefficient of time prediction, alpha1 in the paper
-* llscale      : coefficient of likelihood, alpha2 in the paper
-* d_model/hh_dim      : Size of hidden vector of Embedding
-* layers       : Number of Neural CDE layer
-* d_ncde       : Size of hidden vector of Neural CDE for HPcde
-
-[code]
-    
-* Main_HPCDE.py           : Code for training and testing.
-* transformer/Models.py   : Our model 
-* Utils.py                : Modules required during training
+![GitHub Repo stars](https://img.shields.io/github/stars/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations)
+ [![arXiv](https://img.shields.io/badge/arXiv-2305.07031-b31b1b.svg)](https://arxiv.org/abs/2305.07031) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkookseungji%2FHawkes-Process-Based-on-Controlled-Differential-Equations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
