@@ -49,3 +49,9 @@ bash run_hpcde.sh
 
 This script sets up the necessary parameters and runs the main training/evaluation loop.
 
+## Code Structure
+
+- `Main_HPCDE.py`: Contains the main training and testing logic
+- `transformer/Models.py`: Implements the HP-CDE model architecture
+- `Utils.py`: Utility functions for data processing, evaluation metrics, etc.
+
