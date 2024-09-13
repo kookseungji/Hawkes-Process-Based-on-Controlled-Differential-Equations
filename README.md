@@ -68,3 +68,16 @@ The `run_hpcde.sh` script accepts several command-line arguments to configure th
 
 Refer to the script for additional hyperparameters and their default values.
 
+## Citation
+
+If you find this work useful in your research, please consider citing our paper:
+
+```
+@inproceedings{jo2023hawkes,
+title={Hawkes process based on controlled differential equations},
+author={Jo, Minju and Kook, Seungji and Park, Noseong},
+booktitle={Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI)},
+pages={2151--2159},
+year={2023}
+}
+```
