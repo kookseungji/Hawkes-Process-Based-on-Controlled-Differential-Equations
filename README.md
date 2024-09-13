@@ -7,6 +7,7 @@
 This repository contains the official implementation of "Hawkes Process Based on Controlled Differential Equations" as presented in IJCAI 2023.
 
 ## Introduction
+<img src="img/hp-cde.png" width="300">
 
 HP-CDE is a novel approach to modeling temporal point processes using neural controlled differential equations (neural CDEs). It addresses two key limitations of existing neural Hawkes process models:
 1. Accurately capturing irregular event dynamics 
