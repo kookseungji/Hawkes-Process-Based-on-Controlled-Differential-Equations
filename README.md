@@ -85,3 +85,7 @@ pages={2151--2159},
 year={2023}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations&type=Date)](https://star-history.com/#kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations&Date)
