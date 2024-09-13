@@ -6,6 +6,8 @@
 
 This repository contains the official implementation of "[Hawkes Process Based on Controlled Differential Equations](https://www.ijcai.org/proceedings/2023/239)" as presented in IJCAI 2023.
 
+:bulb: To see other papers from BigDyL, please visit [BigDyL homepage](https://sites.google.com/view/npark) or [awesome-bigdyl](https://github.com/bigdyl-kaist/awesome-bigdyl) to see the list of papers with links to papers and code.
+
 ## Introduction
 <img src="img/hp-cde.png" width="300">
 
