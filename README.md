@@ -55,3 +55,16 @@ This script sets up the necessary parameters and runs the main training/evaluati
 - `transformer/Models.py`: Implements the HP-CDE model architecture
 - `Utils.py`: Utility functions for data processing, evaluation metrics, etc.
 
+## Configuration
+
+The `run_hpcde.sh` script accepts several command-line arguments to configure the model and training process:
+
+- `--data`: Path to the dataset
+- `--scale`: Coefficient for time prediction loss (α₁ in the paper)
+- `--llscale`: Coefficient for log-likelihood loss (α₂ in the paper)
+- `--d_model` / `--hh_dim`: Size of the embedding hidden vectors
+- `--layers`: Number of Neural CDE layers
+- `--d_ncde`: Size of the Neural CDE hidden vectors
+
+Refer to the script for additional hyperparameters and their default values.
+
