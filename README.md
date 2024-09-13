@@ -12,3 +12,12 @@ HP-CDE is a novel approach to modeling temporal point processes using neural con
 2. Exactly calculating the log-likelihood without resorting to approximations
 
 By using the continuous nature of neural CDEs, HP-CDE can properly handle irregular time series data and compute exact log-likelihoods, leading to improved performance on event prediction tasks.
+
+## Requirements
+
+- Python 3.7+
+- PyTorch 1.4.0+
+- CUDA-enabled GPU (recommended for faster training)
+
+We recommend using Anaconda to manage the Python environment and dependencies.
+
